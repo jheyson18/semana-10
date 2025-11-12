@@ -1,0 +1,53 @@
+/*estilo*/
+
+body{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(26, 29, 223);
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+/*estilo de boton*/
+.boton{
+    background-color: white;
+    color: BLACK;
+    font-size: 18px;
+    border: none;
+    padding: 15px 30px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color color 0.3s, transform 0.3s;
+}
+.boton:hover{
+    background-color: #666666;
+    transform: scale(1.1);
+}
+.texto{
+    opacity: 0;
+    animation: aparecer 0.5s ease-in forwards;
+}
+@keyframes aparecer{
+    from{
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to{
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+.h2{
+     background-color: white;
+    color: BLACK;
+    font-size: 18px;
+    border: none;
+    padding: 15px 30px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color color 0.3s, transform 0.3s;
+}
+.boton:hover{
+    background-color: #666666;
+    transform: scale(1.1);
+}
